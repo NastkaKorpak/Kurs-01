@@ -165,15 +165,19 @@
 # print ("Max = ", max)
 # print ("Min = ", min)
 # for num in range (min,0,-1):
-#     if l1%num ==0 and l2%num ==0:
-#      print (num)
-#     break
-#
+#     if l1 % num == 0 and l2 % num == 0:
+#         print (num)
+#         break
+
+
+
 a = "Code Brainers"
 b = 317
-print("a: {}, b: {}".format(a,b))
+print("a: {}, b: {}".format(a, b))
 b, a = a, b
-print("a: {}, b: {}".format(a,b))
+print("a: {}, b: {}".format(a, b))
+#print(str.format("a: {}, b: {}", a, b))
+#print("a: " + str(a) + ", b: " + str(b))
 lista = list ()
 for num in range (1500, 2701):
     if num % 7 == 0 and num % 5 == 0:
